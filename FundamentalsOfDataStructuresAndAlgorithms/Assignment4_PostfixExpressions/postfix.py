@@ -13,7 +13,7 @@ def postfix(expression: str) -> int:
             if char == "+":
                 num_stack.append(A+B)
             elif char == "-":
-                num_stack.append(A-B)
+                num_stack.append(B-A)
             elif char == "*":
                 num_stack.append(A*B)
             elif char == "/":
